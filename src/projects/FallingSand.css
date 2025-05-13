@@ -1,0 +1,19 @@
+.sand-table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #1e1e1e;
+    border: 2px solid #444;
+}
+
+.sand-cell {
+    border: 1px solid #444;
+    background-color: #2d2d2d;
+}
+
+.sand-cell.filled {
+    background-color: #ffffff;
+}
+
+.sand-cell:hover {
+    background-color: #3a3a3a;
+}
