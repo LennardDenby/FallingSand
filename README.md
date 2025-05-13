@@ -5,4 +5,4 @@ I created this project to learn React and Typescript.
 
 This project is not optimized for performance (it performes faster then the gif).
 
-![](example.gif)
+![](output.gif)
