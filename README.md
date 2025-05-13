@@ -4,3 +4,5 @@ This project is a simple falling sand simulation implemented in React + Typescri
 This project is not optimized for performance.
 
 I created this project to learn React and Typescript.
+
+![](Example.gif)
