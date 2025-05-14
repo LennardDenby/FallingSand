@@ -35,10 +35,8 @@ function FallingSand({ rows, cols}: FallingSandProps) {
         intervalId = window.setInterval(() => {
             setGrid(prevGrid => updateGrid(prevGrid))
         }, 10);
-        document.addEventListener('mouseup', handleMouseUp)
         return () => {
             window.clearInterval(intervalId);
-            document.removeEventListener('mouseup', handleMouseUp);
         }
     }, []);
     
